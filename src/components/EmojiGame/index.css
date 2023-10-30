@@ -1,0 +1,46 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+.bg-cont {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  width: 850px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.score-page {
+  padding: 50px;
+}
+.score-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border-color: #ffffff30;
+  background-color: #ffffff30;
+  border-style: solid;
+  padding: 50px;
+}
+
+.side-img {
+  height: 350px;
+  width: 320px;
+}
+.win-lose-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

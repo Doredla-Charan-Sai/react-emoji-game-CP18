@@ -1,0 +1,38 @@
+/* Write your code here. */
+.nav-bar-cont {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff30;
+  background-size: cover;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.logo-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  margin-right: 5px;
+}
+.game-name {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.scores-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score-para {
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
